@@ -1,4 +1,4 @@
-# Stronghold 1.6.6 Indonesia
+# Stronghold 1.6.3 Indonesia
 
 ## Build
 
