@@ -1,22 +1,6 @@
 # Stronghold 1.6.6 Indonesia
 
-Paket ringkas untuk sekali upload ke GitHub: **7 file**, sekitar **0,8 MB**.
-`SOURCE-BUILD.zip` berisi 117 berkas yang diperlukan untuk membangun launcher
-dan patch native rilis 1.6.6, termasuk Java, resource, C/header, baseline,
-alat build dan lisensi. Skrip `build.py` mengekstraknya otomatis saat build.
-
-## Upload
-
-Masuk ke folder ini, tekan **Ctrl+H** agar `.gitignore` terlihat, lalu
-**Ctrl+A**. Seret seluruh isinya ke **Add file → Upload files** pada halaman
-utama repository GitHub, lalu **Commit changes**. Tidak perlu mengekstrak
-`SOURCE-BUILD.zip` untuk upload. GitHub menyimpan source tersebut sebagai ZIP.
-
-Folder ini tidak berisi APK game, paket bahasa, kunci signing, atau password.
-Backup ZIP pribadi tetap diperlukan untuk input build dan disimpan terpisah.
-Pengujian dan laporan historis tersedia dalam backup lengkap.
-
-## Build di PC baru
+## Build
 
 Gunakan Linux x86_64 atau Ubuntu di WSL2. Pasang Python 3.11+, JDK 17+,
 XZ 5.4+, binutils/readelf, dan Android SDK untuk Linux:
