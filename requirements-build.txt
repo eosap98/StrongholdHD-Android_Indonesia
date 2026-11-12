@@ -1,0 +1,4 @@
+# Minimal dependencies for the reviewed APK builder and host build checks.
+# Python 3.11+; no emulator/instruction engine dependency.
+pyelftools==0.33
+pefile==2024.8.26
